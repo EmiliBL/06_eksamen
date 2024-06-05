@@ -1,0 +1,119 @@
+body {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*Font family */
+/* h1 */
+.golos-text uniquifier {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* h2,3,4 */
+.signika-negative {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* brødtekst */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* STYLING */
+/* farver */
+html {
+  --primary: #f8f9fb;
+  --secondary: #1e1e1e;
+  --tertiary: #c43024;
+}
+
+body {
+  background-color: #f8f9fb;
+}
+
+/* Text */
+h1 {
+  font-family: "Golos Text", sans-serif;
+  font-size: 100px;
+  color: var(--tertiary);
+}
+
+h2 {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: var(--secondary);
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #e9bc01;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #e9bc01;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  font-family: "Poppins", sans-serif;
+}
+/* top navogationbar */
+
+/* footer */
+/* horizontal linje */
+
+.custom-hr {
+  border: 0;
+  height: 0.5px;
+  background-color: #000;
+}
+.foot {
+  margin-left: 10px;
+  margin-top: 10px;
+  left: 0;
+  bottom: 0;
+}
+
+.footer img {
+  height: 24px;
+  width: 24px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .custom-hr {
+    border: 0;
+    height: 0.5px;
+    background-color: #000;
+    margin: 0px 0;
+  }
+  .footer {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .footer img {
+    height: 20px;
+    width: 20px;
+    margin-left: -8px;
+  }
+}

@@ -1,0 +1,121 @@
+/* General styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fb;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.menu {
+  margin-left: 8%;
+  margin-right: 10px;
+}
+
+.custom-hr {
+  border: 0;
+  height: 0.5px;
+  background-color: #000;
+  margin-top: 20px;
+}
+
+.logo img {
+  height: 30px;
+  width: 30px;
+}
+
+/* Navigation styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 28%;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu a {
+  display: block;
+  padding: 26px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 18px;
+  margin-right: auto;
+}
+
+.menu a:hover {
+  color: #c43024;
+  text-decoration: none;
+}
+
+/* General link styling */
+nav a {
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #c43024;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+}
+
+@media (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    text-decoration: none;
+  }
+
+  header img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .logo img {
+    height: 50px;
+    width: 50px;
+  }
+  .custom-hr {
+    border: 0;
+    height: 0.5px;
+    background-color: #000;
+    margin-top: 20px;
+  }
+
+  .menu a {
+    display: block;
+    padding: 34px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: center;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 24px;
+  }
+}
