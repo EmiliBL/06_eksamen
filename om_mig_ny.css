@@ -5,7 +5,7 @@ main {
 
 hr {
   margin-top: 50px;
-  color: #e1e1e1;
+  color: #a0bbd2;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h3 {
 .mig2 img {
   align-items: center;
   height: auto;
-  width: 404px;
+  width: 25.25rem;
   margin-top: 10px;
   margin-left: -8px;
 }
@@ -79,7 +79,7 @@ h3 {
 
   .mig2 img {
     height: auto;
-    width: 1450px;
+    width: 90.625rem;
     margin-top: 15px;
     border-radius: 20px;
   }

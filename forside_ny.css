@@ -138,8 +138,8 @@ hr {
 
 /* lootie i web */
 .hero_video {
-  width: 480px;
-  height: 155px;
+  width: 24rem;
+  height: 10rem;
   overflow: hidden;
   position: relative;
   margin-top: -57px;
@@ -245,8 +245,8 @@ hr {
 
   /* lootie i web */
   .hero_video {
-    width: 1477px;
-    height: 468px;
+    width: 92.3rem;
+    height: 29.2rem;
     overflow: hidden;
     position: relative;
     margin-top: -259px;
