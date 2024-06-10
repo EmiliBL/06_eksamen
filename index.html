@@ -28,22 +28,33 @@
         href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Golos+Text&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative:wght@300..700&display=swap"
         rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="icon" href="indhold/logo2.svg" type="image/svg+xml">
+
 </head>
 
 
 <body>
     <!-- top navigation bar -->
-    <header class="header">
+    <header class=" header">
         <div class="logo">
             <a href="index.html">
-                <img src="indhold/logo.svg" alt="logo">
+                <img src="indhold/logo2.svg" alt="logo">
             </a>
         </div>
 
         <nav>
             <ul class="menu">
-                <li><a href="projekter.html">Projekter</a></li>
-                <li><a href="om_mig.html">Om mig</a></li>
+                <li><a href="projekter.html">Projekter</a>
+                    <div class="submenu">
+                        <a href="tema5.html">Tema 5 Virksomhedssite</a>
+                        <a href="tema4.html">Tema 4 Animation</a>
+                        <a href="tema3.html">Tema 3 Emnesite</a>
+                        <a href="tema2.html">Tema 2 Website</a>
+                        <!-- Tilføj flere projekter efter behov -->
+                    </div>
+                </li>
+                <li><a href="om_mig.html">om mig</a></li>
             </ul>
 
             <!-- Mobil top navigation bar -->
@@ -53,57 +64,83 @@
                 <div class="line"></div>
             </div>
         </nav>
-
-
     </header>
 
-    <h1>Emilie Brøgger Larsen</h1>
-    <p> Dansk baseret aspirerende ux researcher og designer, med front -og backend erfaring.
-        Med snart 10 års erfaring i
-        design verden, har jeg søgt nysgerrigt efter geniale, inkluderende og alternative løsninger.</p>
+    <hr>
+    <div class="hero_video">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"></script>
+
+        <dotlottie-player src="indhold/logo/animation.json" background="transparent" id="hero_img" speed="0.8"
+            style="width: auto; height: auto;" loop autoplay></dotlottie-player>
+    </div>
+    <div id="lottie-container"></div>
+
+
+    <div class=" hej">
+        <p> Velkommen til min portfolio! Jeg er multimediedesignerstuderende med fokus på UX research og design, drevet
+            af en passion for at skabe brugervenlige og innovative løsninger.</p>
+    </div>
+    <hr>
 
     <h3>Projekter</h3>
 
     <div class="container_1">
         <div class="display_1">
             <a href="tema5.html">
-                <img src="indhold/grid_1.svg" alt="tema5">
+                <img src="indhold/grid_1.svg" alt="tema5" class="hover-effect">
                 <h6>Tema 05 Virksomhedssite</h6>
             </a>
         </div>
 
 
         <div class="display_2">
-            <a href="tema5.html">
-                <img src="indhold/grid_2.svg" alt="tema4">
-                <h6>Tema 04 Animation</h6>
+            <a href="tema2.html">
+                <img src="indhold/grid_2.svg" alt="tema2" class="hover-effect">
+                <h6>Tema 02 Website</h6>
             </a>
         </div>
 
         <div class="display_3">
-            <img src="indhold/grid3.svg" alt="tema3">
-            <h6>Tema 03 Emnesite</h6>
+            <a href="tema4.html">
+                <img src="indhold/grid3.svg" alt="tema4" class="hover-effect">
+                <h6>Tema 04 Animation</h6>
+            </a>
         </div>
 
         <div class="display_4">
-            <img src="indhold/grid4.svg" alt="tema2">
-            <h6>Tema 02 Website</h6>
+            <a href="tema3.html">
+                <img src="indhold/grid4.svg" alt="tema3" class="hover-effect">
+                <h6>Tema 03 Emnesite</h6>
+            </a>
         </div>
     </div>
 
     <!-- footer -->
     <hr>
     <footer class="foot">
-
         <div class="footer">
-            <h4>Lad os cathe up!</h4>
-            <img src="indhold/gmail_logo.svg" alt="gmail_logo">
-            <img src="indhold/linkedin_logo.svg" alt="linkedin_logo">
-            <h5>Copyrights reserved Emilie B. Larsen</h5>
+            <div class="catch">
+                <h4>Lad os catch up!</h4>
+            </div>
+            <div class="foot_foto">
+                <a
+                    href="https://accounts.google.com/lifecycle/steps/signup/name?continue=https://mail.google.com/mail/&ddm=0&dsh=S-335472185:1718006323357575&ec=asw-gmail-globalnav-create&flowEntry=SignUp&flowName=GlifWebSignIn&service=mail&TL=AC3PFD7vSU1RTX9RfhZ7bjevMTBHduwGIiDGAXGOM_WzkLinOcCb799ZNj31pRxX">
+                    <img src="indhold/gmail_logo.svg" alt="gmail_logo"> </a>
+                <a href="https://www.linkedin.com/in/emilie-broegger-larsen/">
+                    <img src="indhold/linkedin_logo.svg" alt="linkedin_logo"></a>
+            </div>
+            <div class="copyright">
+                <h5>Copyrights reserved Emilie B. Larsen</h5>
+            </div>
         </div>
     </footer>
 
     <script src="top_menu.js"></script>
+
+
+
+
 </body>
 
 </html>

@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+hr {
+  margin-top: 91px;
+  color: #e1e1e1;
+}
+
 h1 {
   font-size: 32px;
 }
@@ -46,6 +51,15 @@ img {
     margin-top: 140px;
   }
 
+  h1 {
+    font-size: 50px;
+  }
+
+  html {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .container_3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -78,8 +92,18 @@ img {
   .hero_img_midt {
     text-align: center;
   }
-  img {
+  main img {
     width: 1276px;
     height: auto;
+    border-radius: 20px;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .grid_1 {
+    margin-left: 20px;
   }
 }
