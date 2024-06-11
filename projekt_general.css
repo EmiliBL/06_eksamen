@@ -122,7 +122,9 @@ img {
   .hover-effect:hover {
     filter: sepia(1) saturate(10) hue-rotate(-30deg) brightness(0.9);
   }
-
+  .hover-effect h6 :hover {
+    color: black;
+  }
   .slideshow-container {
     max-width: 1000px;
     position: relative;
