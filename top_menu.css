@@ -69,8 +69,8 @@ nav a:hover::after {
 /* Submenu */
 .submenu {
   display: none;
-  position: absolute; /* Position submenu absolutely */
-  background-color: #e5eff8; /* Just for visibility */
+  position: absolute;
+  background-color: #e9bc01;
   padding: 10px;
 }
 
@@ -83,7 +83,7 @@ nav a:hover::after {
 }
 
 .submenu a {
-  font-family: "Poppins", sans-serif; /* Tilføj font-family her */
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
